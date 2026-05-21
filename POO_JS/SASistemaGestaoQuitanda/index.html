@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Quitanda MVC</h1>
+
+  <!-- Formulário para cadastrar produto -->
+  <h2>Cadastrar Produto</h2>
+  <div>
+    <input id="nome" placeholder="Nome">
+    <input id="categoria" placeholder="Categoria">
+    <input id="preco" placeholder="Preço">
+    <input id="quantidade" placeholder="Quantidade">
+    <button id="btnCadastrar">Cadastrar Produto</button>
+  </div>
+
+  <!-- Botão para listar estoque -->
+  <h2>Estoque</h2>
+  <div>
+    <div id="estoque"></div>
+    <button id="btnListarEstoque">Listar Estoque</button>
+  </div>
+
+  <!-- Botão para listar movimentações -->
+  <h2>Movimentações</h2>
+  <div>
+    <div id="movimentacoes"></div>
+    <button id="btnListarMov">Listar Movimentações</button>
+  </div>
+
+  <!-- Área de mensagens -->
+  <div id="mensagens"></div>
+
+  <!-- Formulário para registrar venda -->
+    <h2>Registrar Venda</h2>
+    <div>
+      <input id="nomeVenda" placeholder="Nome do Produto">
+      <input id="quantidadeVenda" placeholder="Quantidade">
+      <button id="btnVenda">Registrar Venda</button>
+    </div>
+
+    <!-- Formulário para atualizar produto -->
+    <h2>Atualizar Produto</h2>
+    <div>
+      <input id="nomeUpdate" placeholder="Nome do Produto">
+      <input id="quantidadeUpdate" placeholder="Nova Quantidade">
+      <input id="precoUpdate" placeholder="Novo Preço">
+      <button id="btnUpdate">Atualizar Produto</button>
+    </div>
+
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>

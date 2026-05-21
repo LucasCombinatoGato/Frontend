@@ -55,12 +55,12 @@ class Produto{
 
     toString(){
         return `Produto: ${produto1.nome},
-Preço: ${produto1.preco},
-Marca: ${produto1.marca},
-Disponível: ${produto1.disponivel ? "Sim" : "Não"},
-Desconto: ${produto1.disponível ? produto1.desconto() : "" }`
+        Preço: ${produto1.preco},
+        Marca: ${produto1.marca},
+        Disponível: ${produto1.disponivel ? "Sim" : "Não"},
+        Desconto: ${produto1.disponível ? produto1.desconto() : "" }`
     }
-
+''
 }
 
 // Declara meus produtos

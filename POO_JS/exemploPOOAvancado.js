@@ -24,8 +24,11 @@ class Pessoa {
     get getCpf(){   // Pegam o valor do atributo privado
         return this.#cpf;
     }
-    get setIdade(idade){   // Alterar o valor da Idade
+    set setIdade(idade){   // Alterar o valor da Idade
         this.#idade = idade;
+    }
+    set setnome(nome){// Alterar o valor do nome
+        this.#nome = nome;
     }
 
     // Método de Acesso
