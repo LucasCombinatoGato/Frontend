@@ -1,0 +1,40 @@
+<section class="border p-3 my-3">
+  <h1>Formulário</h1>
+
+
+  <input type="text" placeholder="Nome" (keyup.enter)= "salvarValor(campoInput.value)"
+  <input type="text" placeholder="Email" (keyup.enter)= "salvarValor(campoInput.value)"
+  <input type="text" placeholder="Mensagem" (keyup.enter)= "salvarValor(campoInput.value)"
+class="form-control mb-2">
+  <input type="button" nome="Enviar" value="Enviar">
+
+  <!-- <input type="text"
+         class="form-control mb-2"
+         (keyup)="onKeyUp($event)"
+         (blur)="salvarValor(campoInput.value)"
+         #campoInput>
+
+  <p>Valor digitado em tempo real: <strong>{{ valorAtual }}</strong></p>
+  <p>Valor salvo (pressione Enter ou clique fora do campo): <strong>{{ valorSalvo }}</strong></p>
+
+  <hr>
+
+  <span class="p-2 d-inline-block transition"
+        (mouseover)="alternarDestaque()"
+        (mouseout)="alternarDestaque()"
+        [class.bg-warning]= "isMouseOver"
+        [class.text-dark]= "isMouseOver">
+    Passe o mouse sobre esta região para destacar.
+  </span>
+
+  <hr>
+
+  <button class="btn btn-success" (click)="incrementar()">Incrementar Contador</button>
+  <p class="mt-2">Cliques totais: <span class="badge bg-dark">{{ contador }}</span></p>
+</section>
+
+
+
+nome email mensagem
+
+botão enviar -->
